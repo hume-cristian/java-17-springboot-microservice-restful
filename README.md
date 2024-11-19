@@ -41,7 +41,8 @@ $ git clone https://github.com/hume-cristian/java-17-springboot-microservice-res
 
 ## Author
 Name and contact info
-* Cristian Hume Henriquez
+* Hume Cristian
+* hume-cristian@outlook.com
 
 ## Version
 * 1.0.0
