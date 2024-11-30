@@ -11,6 +11,14 @@ import java.util.List;
  */
 public interface UserService {
 
-    List<UserModel> findAll();
+    Long createUser(UserModel userModel);
+
+    List<UserModel> findUserAll();
+
+    UserModel findUserById(Long idUser);
+
+    void updateUser(Long idUser, UserModel userModel);
+
+    void deleteUser(Long idUser);
 
 }
