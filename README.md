@@ -1,4 +1,4 @@
-# java-17-springboot-microservice-restful
+# java17-springboot3-microservice-restful
 
 ## Table of contents
 * [General info](#general-info)
@@ -8,7 +8,7 @@
 * [Version](#version)
 
 ## General info
-Microservice RESTful project for Java 17 and Spring Boot 3.3.5
+Microservice RESTful project with Java 17 and Spring Boot 3.3.5
 
 ## Technologies
 Project is created with:
@@ -21,12 +21,12 @@ To run this project, install it locally using git:
 
 1.- The first step is to clone the repository using the following command
 ```
-$ git clone https://github.com/hume-cristian/java-17-springboot-microservice-restful.git
+$ git clone https://github.com/hume-cristian/java17-springboot3-microservice-restful.git
 ```
 
 2.- Open project with IntelliJ IDEA 2024.2.4 (Community Edition)
 ```
- /java-17-springboot-microservice-restful
+/java17-springboot3-microservice-restful
 ```
 
 3.- Run project with IntelliJ IDEA 2024.2.4 (Community Edition)
