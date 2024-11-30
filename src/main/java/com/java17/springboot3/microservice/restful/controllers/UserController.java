@@ -3,7 +3,6 @@ package com.java17.springboot3.microservice.restful.controllers;
 import com.java17.springboot3.microservice.restful.models.UserModel;
 import com.java17.springboot3.microservice.restful.services.UserService;
 
-import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
