@@ -4,7 +4,14 @@ import com.java17.springboot3.microservice.restful.models.UserModel;
 import com.java17.springboot3.microservice.restful.services.UserService;
 
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.*;
+import org.springframework.web.bind.annotation.DeleteMapping;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.PutMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
 
@@ -34,7 +41,7 @@ public class UserController {
     }
 
     @GetMapping(value = "/users/{id_user}")
-    public ResponseEntity<UserModel> findUserById(@PathVariable Long idUser) {
+    public ResponseEntity<UserModel> findUserById(@PathVariable("id_user") Long idUser) {
         return ResponseEntity.ok(userService.findUserById(idUser));
     }
 
