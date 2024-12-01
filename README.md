@@ -31,12 +31,12 @@ $ git clone https://github.com/hume-cristian/java17-springboot3-microservice-res
 
 3.- Run project with IntelliJ IDEA 2024.2.4 (Community Edition)
 ```
- Run file /Application.java
+Run file /Application.java
 ```
 
 3.- To test if the project is running, you should access the following URL in a web browser
 ```
- http://localhost:8080/actuator/health
+http://localhost:8080/actuator/health
 ```
 
 ## Author
