@@ -37,6 +37,7 @@ public class UserController {
 
     @GetMapping(value = "/users")
     public ResponseEntity<List<UserModel>> findUserAll() {
+        // throw new RuntimeException(" ¡¡¡ ERROR FOR TESTING !!!");
         return ResponseEntity.ok(userService.findUserAll());
     }
 
